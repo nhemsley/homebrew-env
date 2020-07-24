@@ -5,8 +5,8 @@
 - :name: nvm
   :script: |-
     export NVM_DIR="$HOME/.nvm"
-    [ -s "$HOME/.linuxbrew/opt/nvm/nvm.sh" ] && . "$HOME/.linuxbrew/opt/nvm/nvm.sh"  # This loads nvm
-    [ -s "$HOME/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "$HOME/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+    [ -s "$HOMEBREW-PREFIX/opt/nvm/nvm.sh" ] && . "$HOMEBREW-PREFIX/opt/nvm/nvm.sh"
+    [ -s "$HOMEBREW-PREFI/opt/nvm/etc/bash_completion.d/nvm" ] && . "$HOMEBREW-PREFIX/opt/nvm/etc/bash_completion.d/nvm"
 - :name: rustup-init
   :script: |-
     PATH=$HOME/.cargo/bin:$PATH
