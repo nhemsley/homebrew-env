@@ -14,9 +14,9 @@ module BrewEnv
 
     Where command is:
 
-      recache # Recache the shell envronment script file
-      source-file # Get the source file for the shell env
-      shellenv # Output the shellenv directly (i.e. for debugigng) 
+      recache      # Recache the shell envronment script file
+      source-file  # Get the source file for the shell env
+      shellenv     # Output the shellenv directly (i.e. for debugigng) 
 
   EOS
 
