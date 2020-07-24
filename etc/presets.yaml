@@ -1,0 +1,12 @@
+---
+- :name: rbenv
+  :script: |-
+    eval "$(rbenv init -)"
+- :name: nvm
+  :script: |-
+    export NVM_DIR="$HOME/.nvm"
+    [ -s "$HOME/.linuxbrew/opt/nvm/nvm.sh" ] && . "$HOME/.linuxbrew/opt/nvm/nvm.sh"  # This loads nvm
+    [ -s "$HOME/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "$HOME/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+- :name: rustup-init
+  :script: |-
+    PATH=$HOME/.cargo/bin:$PATH
