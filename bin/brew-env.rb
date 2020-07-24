@@ -10,7 +10,14 @@ module BrewEnv
   USAGE = <<-EOS
   DESCRIPTION Shell environment helper
   USAGE
-    brew env
+    brew env [command]
+
+    Where command is:
+
+      recache # Recache the shell envronment script file
+      source-file # Get the source file for the shell env
+      shellenv # Output the shellenv directly (i.e. for debugigng) 
+
   EOS
 
   module_function
