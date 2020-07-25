@@ -10,3 +10,6 @@
 - :name: rustup-init
   :script: |-
     PATH=$HOME/.cargo/bin:$PATH
+- :name: go
+  :script: |-
+    PATH=$(go env GOPATH):$PATH
