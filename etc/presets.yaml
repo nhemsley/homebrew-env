@@ -12,4 +12,4 @@
     PATH=$HOME/.cargo/bin:$PATH
 - :name: go
   :script: |-
-    PATH=$(go env GOPATH):$PATH
+    GOPATH=$(go env GOPATH)
